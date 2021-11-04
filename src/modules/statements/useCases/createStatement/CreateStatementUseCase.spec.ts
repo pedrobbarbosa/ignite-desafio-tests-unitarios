@@ -71,8 +71,6 @@ describe("Unit test", () => {
         expect(balance).toEqual({ "balance": 1 });
       });
 
-      console.log(depositStatement);
-      console.log(withdrawStatement);
     });
 
     it("Should not create a statement if the user doesn't exist", async () => {
